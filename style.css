@@ -1,0 +1,178 @@
+*{
+    font-family: "Lato";
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    display: flex;
+}
+
+#kiri{
+    background: url(Image/Rectangle.svg);
+    height: 1025px;
+    width: 746px;
+    display: flex;
+    position: absolute;
+    left: 0%;
+}
+
+.kotak{
+    background: url(Image/Rectangle\ 2.svg);
+    width: 550px;
+    height: 700px;
+    margin: 150px 100px;
+    text-align: center;
+}
+
+.kotak-atas{
+    font-size: 40px;
+}
+
+.e-learning {
+    text-align: left;
+    color: white;
+    transform: translateY(120px);
+    margin-left: 70px;
+}
+
+.for {
+    text-align: center;
+    color: white;
+    transform: translateY(70px);
+    margin-left: 70px;
+}
+
+.NGO{
+    text-align: right;
+    color: #A96C39;
+    margin-right: 80px;
+    transform: translateY(20px);
+}
+
+.kotak-bawah{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 50px;
+    color: #583314;
+}
+
+#kanan{
+    background-color: #FFF6EF;
+    height: 1025px;
+    position: absolute;
+    right: 0%
+}
+
+#kanan h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 180px;
+    margin-left: 70px;
+}
+
+#kanan p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #646464;
+    transform: translateY(-25px);
+    margin-left: 70px;
+    
+}
+
+.gambar{
+    margin-left: 494px;
+    margin-top: 30px;
+}
+
+.gambar img{
+    height: 70px;
+    transform: translateX(-30px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+form label {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+form input {
+    margin-top: 10px;
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+form .check {
+    margin: 20px 0px;
+    width: 20px;
+    height: 20px;
+}
+
+form a {
+    color: black;
+}
+
+.submit{
+    text-decoration: none;
+    padding: 10px 225px 10px 180px;
+    background-color: #FAA65E;
+    width: 10px;
+    color: white;
+    /* font-weight: 700; */
+    border-radius: 8px;
+    text-align: center;
+}
+
+#kanan .remember{
+    transform: translateY(-92px);
+    margin-left: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.or{
+    display: flex;
+    column-gap: 10px;
+}
+
+.or-middle{
+    transform: translateY(-10px);
+}
+
+.garis-satu{
+    background-color: black;
+    height: 1px;
+    width: 190px;
+    margin-left: 70px;
+}
+
+.garis-dua{
+    background-color: black;
+    height: 1px;
+    width: 185px;
+}
+
+.email-alter{
+    display: flex;
+    justify-content: center;
+    margin-right: 210px;
+    margin-top: 20px;
+    column-gap: 25px;
+}
